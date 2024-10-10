@@ -1,0 +1,14 @@
+#root {
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    gap: 6px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    width: 20rem;
+    height: 32rem;
+}

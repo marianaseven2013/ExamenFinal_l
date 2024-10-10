@@ -1,0 +1,22 @@
+ .Coom2 {
+    background-color: rgb(217, 243, 198);
+    height: 100%;
+    border-radius: 1rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2rem auto;
+    padding: 5px;
+    height: 8rem;
+
+    border: 1px solid black;
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.cu{
+    width: 3rem;
+    height: 2rem;
+    background-color: white;
+} 
